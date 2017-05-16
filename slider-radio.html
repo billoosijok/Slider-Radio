@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Slider Radio Buttons</title>
+	<script src="jquery-3.2.1.min.js"></script>
+	<style>
+		#slider {
+			position: relative;
+			display: inline-block;
+			border-radius: 10px;
+			border: 1px solid rgba(0,0,0,0.5);
+		}
+
+		#slider * {
+			display: inline;
+		}
+
+		#slider input[type=radio] {
+			display: none;
+		}
+
+		#slider label {
+			border-radius: 10px;
+			cursor: pointer;
+			color: #666;
+			padding: 10px;
+			display: inline-block;
+			background-color: transparent;
+
+			transition: 0.1s background-color;
+			transition: 0.1s transform;
+		}
+
+		#slider input[type=radio]:checked + label {
+			background-color: #005D7A;
+			color: white;
+			transform: scale(1.1);
+		}
+	</style>
+</head>
+<body>
+	<div id="slider">
+		<input type="radio" name="grade" id="a"><label for="a">A</label>
+		<input type="radio" name="grade" id="b"><label for="b">B</label>
+		<input type="radio" name="grade" id="c"><label for="c">C</label>
+	</div>
+</body>
+</html>
