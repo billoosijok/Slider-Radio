@@ -13,7 +13,9 @@ Animated slider radio buttons
 ## Installation
 
 ## Usage
-
+1. Wrap your inputs around a tag with `slider-radio` class.
+2. Make sure that all the radio buttons all followed by their labels.
+3. Connect all labels witheir respective radio input using `for` and `id`.
 ```html
 <div class="slider-radio">
     <input type="radio" name="grade" id="a"><label for="a">A</label>
