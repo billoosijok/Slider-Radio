@@ -6,10 +6,10 @@ Animated slider radio buttons
 </p>
 
 ### Table of Content
-- [Installation](#installation)
-- [Usage](#usage)
-- [Customization](#customization)🎉
-- [License](#license)
+- ⬇️ [Installation](#installation)
+- 🎉 [Usage](#usage)
+- 🤘 [Customization](#customization) 
+- ⚖️ [License](#license)
 
 ## Installation
 #### Regular
