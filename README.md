@@ -2,7 +2,7 @@
 Animated slider radio buttons
 
 <p align="center">
-<img width="400" src="https://thumbs.gfycat.com/HandmadeMajorEsok-size_restricted.gif" />
+<img width="300" src="https://thumbs.gfycat.com/HandmadeMajorEsok-size_restricted.gif" />
 </p>
 
 ### Table of Content
@@ -11,6 +11,13 @@ Animated slider radio buttons
 - [License](#license)
 
 ## Installation
+#### Regular
+1. <a href="src/slider-radio.zip">**Download**</a>.
+2. Add it to your HTML document.
+```html
+<script src="slider-radio/slider-radio.js"></script>
+<link rel="stylesheet" href="slider-radio/slider-radio.css">
+```
 
 ## Usage
 1. Wrap your inputs around a tag with `slider-radio` class.
