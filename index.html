@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Slider Radio Buttons</title>
+    <link rel="stylesheet" href="src/slider-radio.css">
+    <script src="src/animate-slider-radio.js"></script>
+</head>
+<body>
+    <header class="main">
+        <div class="container">
+            <h1>Slider Radio</h1>
+        </div>
+    </header>
+    <main class="main">
+        <div class="container">
+            <section>
+                <div class="section-title">Grade</div>
+                <div class="section-content">
+                    <div class="slider-radio">
+                        <input type="radio" name="grade" id="a" checked><label for="a">A</label>
+                        <input type="radio" name="grade" id="b"><label for="b">B</label>
+                        <input type="radio" name="grade" id="c"><label for="c">C</label>
+                    </div>
+                </div>
+            </section>
+            <section>
+                <div class="section-title">Cars</div>
+                <div class="section-content">
+                    <div class="slider-radio">
+                        <input type="radio" name="car" id="alfa-romeo" checked><label for="alfa-romeo">Alfa Romeo</label>
+                        <input type="radio" name="car" id="bmw"><label for="bmw">BMW</label>
+                        <input type="radio" name="car" id="tesla"><label for="tesla">Tesla</label>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </main>
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+        body {
+            font-family: arial, sans-serif;
+        }
+        .container {
+            max-width: 800px;
+            margin: auto;
+        }
+        header {
+            text-align: center;
+        }
+        section {
+            border-bottom: 1px solid #ccc;
+            overflow: auto;
+        }
+        .section-title {
+            float: left;
+            width: 15%;
+            padding: 30px;
+            font-size: 25px;
+            font-weight: bold;
+        }
+        .section-content {
+            float: left;
+            width: 85%;
+            padding: 30px;
+        }
+    </style>
+</body>
+</html>
