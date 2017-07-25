@@ -2,7 +2,7 @@
 Animated slider radio buttons
 
 <p align="center">
-<img src="https://thumbs.gfycat.com/ThreadbareCreativeKoi-size_restricted.gif" />
+<img width="70%" src="https://thumbs.gfycat.com/ThreadbareCreativeKoi-size_restricted.gif" />
 </p>
 
 ### Table of Content
