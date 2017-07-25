@@ -11,7 +11,7 @@ Animated slider radio buttons
 - 🤘 [Customization](#customization) 
 - ⚖️ [License](#license)
 
-## Installation
+## ⬇️ Installation
 #### Regular
 1. <a href="src/slider-radio.zip">**Download**</a>.
 2. Add it to your HTML document.
@@ -20,7 +20,7 @@ Animated slider radio buttons
 <link rel="stylesheet" href="slider-radio/slider-radio.css">
 ```
 
-## Usage
+## 🎉 Usage
 1. Wrap your inputs around a tag with `slider-radio` class.
 2. Make sure that all the radio buttons all followed by their labels.
 3. Connect all labels witheir respective radio input using `for` and `id`.
@@ -32,8 +32,23 @@ Animated slider radio buttons
 </div>
 ```
 
-## Customization 🎉
+## 🤘 Customization
+Since it's your project, you may custumize the slider from the `slider-radio.css` file. Make sure you don't modify the line underneath `/* REQUIRED STYLES */`.
+##### or
+To avoid confusion, you can simply add styles to your stylesheet. Following, is a guide for css selectors to use:
+```css
 
+.slider-radio { 
+    /* Container Styles */
+}
+.slider-radio label { 
+    /* Option Label Styles */
+}
+.slider-radio input[type=radio]:checked + label,
+.slider-radio .sliding-piece { 
+    /* Indicator Styles */
+}
+```
 
-## License
+## ⚖️ License
 [MIT](https://github.com/billoosijok/slider-radio/blob/master/LICENSE)
