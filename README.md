@@ -6,20 +6,22 @@ Animated slider radio buttons
 </p>
 
 ### Table of Content
-- [Installation](#installation)
-- [Usage](#usage)
-- [License](#license)
+- ⬇️ [Installation](#installation)
+- 🎉 [Usage](#usage)
+- 🤘 [Customization](#customization) 
+- ⚖️ [License](#license)
 
-## Installation
+## ⬇️ Installation
 #### Regular
-1. <a href="src/slider-radio.zip">**Download**</a>.
+1. Go to the <a href="src/slider-radio.zip">**File Page**</a>. Click download.
 2. Add it to your HTML document.
 ```html
 <script src="slider-radio/slider-radio.js"></script>
 <link rel="stylesheet" href="slider-radio/slider-radio.css">
 ```
 
-## Usage
+
+## 🎉 Usage
 1. Wrap your inputs around a tag with `slider-radio` class.
 2. Make sure that all the radio buttons all followed by their labels.
 3. Connect all labels witheir respective radio input using `for` and `id`.
@@ -30,5 +32,26 @@ Animated slider radio buttons
     <input type="radio" name="grade" id="c"><label for="c">C</label>
 </div>
 ```
-## License  
+
+
+## 🤘 Customization
+Since it's your project, you may custumize the slider from the `slider-radio.css` file. Make sure you don't modify the line underneath `/* REQUIRED STYLES */`.
+### or
+To avoid confusion, you can simply add styles to your stylesheet. Following, is a guide for css selectors to use:
+```css
+
+.slider-radio { 
+    /* Container Styles */
+}
+.slider-radio label { 
+    /* Option Label Styles */
+}
+.slider-radio input[type=radio]:checked + label,
+.slider-radio .sliding-piece { 
+    /* Indicator Styles */
+}
+```
+Of course if you are using more than one slider, you can add your own classes and style them respectively by changing `slider-radio` with your own classes.
+
+## ⚖️ License
 [MIT](https://github.com/billoosijok/slider-radio/blob/master/LICENSE)
