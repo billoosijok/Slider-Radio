@@ -15,3 +15,4 @@ Animated slider radio buttons
 ## Usage
 
 ## License  
+[MIT](https://github.com/billoosijok/slider-radio/blob/master/LICENSE)
