@@ -8,6 +8,7 @@ Animated slider radio buttons
 ### Table of Content
 - [Installation](#installation)
 - [Usage](#usage)
+- [Customization 🎉](#customization)
 - [License](#license)
 
 ## Installation
@@ -30,5 +31,9 @@ Animated slider radio buttons
     <input type="radio" name="grade" id="c"><label for="c">C</label>
 </div>
 ```
-## License  
+
+## Customization 🎉
+
+
+## License
 [MIT](https://github.com/billoosijok/slider-radio/blob/master/LICENSE)
