@@ -8,7 +8,7 @@ Animated slider radio buttons
 ### Table of Content
 - [Installation](#installation)
 - [Usage](#usage)
-- [Customization 🎉](#customization)
+- [Customization](#customization)🎉
 - [License](#license)
 
 ## Installation
