@@ -38,10 +38,9 @@ Animated slider radio buttons
 </div>
 ```
 ### Themes
-1. **`base`**: use it by adding the class `base` to the `slider-radio` div.
-2. **`cool`**: use it by adding the class `cool` to the `slider-radio` div.
-3. **`nerdy`**: use it by adding the class `nerdy` to the `slider-radio` div.
-4. **`vertical`**: use it by adding the class `vertical` to any of the themes.
+1. **`cool`**: use it by adding the class `cool` to the `slider-radio` div.
+2. **`nerdy`**: use it by adding the class `nerdy` to the `slider-radio` div.
+3. **`vertical`**: use it by adding the class `vertical` to any of the themes.
 
 ## 🤘 Customization
 Since it's your project, you may custumize the slider from the `slider-radio.css` file. Make sure you don't modify the line underneath `/* REQUIRED STYLES */`.
