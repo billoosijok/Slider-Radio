@@ -12,7 +12,7 @@ Animated slider radio buttons
 - 🤘 [Customization](#customization) 
 - ⚖️ [License](#license)
 
-## 🌟 Features
+## 🌟Features
 - Backward compatible with older browsers.
 - Highly customizable.
 
