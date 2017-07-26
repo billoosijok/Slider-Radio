@@ -6,10 +6,15 @@ Animated slider radio buttons
 </p>
 
 ### Table of Content
+- 🌟 [Features](#features)
 - ⬇️ [Installation](#installation)
 - 🎉 [Usage](#usage)
 - 🤘 [Customization](#customization) 
 - ⚖️ [License](#license)
+
+## 🌟 Features
+- Backward compatible with older browsers.
+- Highly customizable.
 
 ## ⬇️ Installation
 #### Regular
