@@ -7,10 +7,10 @@ Animated slider radio buttons
 
 ### Table of Content
 - 🌟 [Features](#-features)
-- ⬇️ [Installation](#-installation)
+- ⬇️ [Installation](# -installation)
 - 🎉 [Usage](#-usage)
 - 🤘 [Customization](#-customization) 
-- ⚖️ [License](#-license)
+- ⚖️ [License](# -license)
 
 ## 🌟 Features
 - Highly customizable.
