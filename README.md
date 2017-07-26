@@ -44,7 +44,7 @@ You can add themes by adding their names to the container class in addition to `
 3. **Elegant**.
 4. **Vertical**.
 
-###### See the Example Page at [/Example](billoosijok.github.io/slider-radio/Example)
+###### See the Example Page at [/Example](http://billoosijok.github.io/slider-radio/Example)
 
 ## 🤘 Customization
 Since it's your project, you may custumize the slider from the `slider-radio.css` file. Make sure you don't modify the line underneath `/* REQUIRED STYLES */`.
