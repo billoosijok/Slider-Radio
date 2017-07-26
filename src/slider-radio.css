@@ -1,12 +1,9 @@
 /* REQUIRED STYLES */
 .slider-radio{position:relative;}.slider-radio input[type=radio]{display:none;}.slider-radio input[type=radio]:checked + label{position:relative !important;z-index:100 !important;}
 
-/* Base Theme */
+/* DEFAULT */
 .slider-radio {
-    border-radius: 5px;
-    overflow: hidden;
     display: inline-block;
-    background-color: #eee;
 }
 
 .slider-radio label {
@@ -19,10 +16,25 @@
 /* Indicator Styles */
 .slider-radio input[type=radio]:checked + label,
 .slider-radio .sliding-piece {
-    color: white;
-    background-color: #005D7A;
+    background-color: #77abff;
     transition-timing-function: cubic-bezier(.74,.14,.38,.99);
 }
+
+/* Base Theme */
+.slider-radio.base {
+    background-color: #eee;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.slider-radio.base input[type=radio]:checked + label,
+.slider-radio.base .sliding-piece {
+    background-color: #005D7A;
+    border: none;
+    color: white;
+}
+
+
 
 /* Cool Theme */
 
@@ -44,6 +56,31 @@
     box-shadow: 0 0 5px rgba(0,0,0,0.5);
 }
 
+/* Elegant Theme */
+
+.slider-radio.elegant label {
+    display: inline-block;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 20px;
+    font-weight: bold;
+    opacity: 0.5;
+    filter: blur(1px);
+    transition: filter 0.3s;
+}
+
+.slider-radio.elegant input[type=radio]:checked + label {
+    filter: blur(0px);
+}
+.slider-radio.elegant input[type=radio]:checked + label,
+.slider-radio.elegant .sliding-piece {
+    border-radius: 10px;
+    background-color: transparent;
+    color: black;
+    opacity: 1;
+    box-shadow: 0 0 5px rgba(0,0,0,0.5);
+}
+
 /* Vertical */
 
 .slider-radio.vertical {
@@ -54,23 +91,4 @@
     display: block !important;
 }
 
-.slider-radio.nerdy label {
-    display: inline-block;
-    padding: 10px 20px;
-    cursor: pointer;
-    font-size: 20px;
-    font-weight: bold;
-    opacity: 0.5;
-    filter: blur(1px);
-    transition: filter 0.6s;
-}
 
-.slider-radio.nerdy input[type=radio]:checked + label {
-    filter: blur(0px);
-}
-.slider-radio.nerdy input[type=radio]:checked + label,
-.slider-radio.nerdy .sliding-piece {
-    border-radius: 10px;
-    opacity: 1;
-    box-shadow: 0 0 5px rgba(0,0,0,0.5);
-}

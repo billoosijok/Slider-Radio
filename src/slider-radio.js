@@ -20,18 +20,18 @@ window.addEventListener('load', function() {
 		radios.forEach(function(el) { if(el.checked) el.click() });
 
 		function handleLabelClick(e) {
+			let label;
+			let radio;
 			if (e.target.nodeName === "INPUT") {
 
-				const radio = e.target;
-				const label = radio.nextSibling;
+				radio = e.target;
+				label = radio.nextSibling;
 
 				if(radio.checked) {
 					const labelCoords = getElementCoords(label);
 
-					slidingPiece.style['transition-duration'] = animationDuration;
-					slidingPiece.style.opacity = 1;
-					label.style.backgroundColor = "transparent";
-					label.style.boxShadow = "none";
+					// Read function description below.
+					runUglyAnimationSetups();
 
 					animateSlidingPiece(labelCoords);
 
@@ -39,10 +39,7 @@ window.addEventListener('load', function() {
 						clearTimeout(timeout);
 					}
 					timeout = setTimeout(function() {
-						// console.log(slidingPiece);
-						label.style.backgroundColor = "";
-						slidingPiece.style.opacity = '0';
-						label.style.boxShadow = "";
+						clearUglyAnimationSetups();
 
 						timeout = null;
 					}, (animationDuration+0.3) * 1000);
@@ -55,13 +52,40 @@ window.addEventListener('load', function() {
 			function updateSlidingPieceCoords(label) {
 				animateSlidingPiece(getElementCoords(label));
 			}
-
+			option-1
+			option-2
+			option-3
+			option-4
+			option-5
 			function animateSlidingPiece(coords) {
 				slidingPiece.style.left = coords.x + "px";
 				slidingPiece.style.top = coords.y + "px";
 				slidingPiece.style.width = coords.width + "px";
 				slidingPiece.style.height = coords.height + "px";
 			}
+
+			/**
+			 * This function tries to hide the checked label until the animation
+			 * is over, because, in truth, the label is checked instantly. So
+			 * it gets all the styles from the css. But things like border or background-color
+			 * we don't want to show up instantly. So in this function we hide those styles.
+			 */
+			function runUglyAnimationSetups() {
+
+				slidingPiece.style['transition-duration'] = animationDuration;
+				slidingPiece.style.opacity = 1;
+				label.style.backgroundColor = "transparent";
+				label.style.boxShadow = "none";
+				label.style.borderColor = "transparent";
+			}
+
+			function clearUglyAnimationSetups() {
+				label.style.backgroundColor = "";
+				slidingPiece.style.opacity = '0';
+				label.style.boxShadow = "";
+				label.style.borderColor = "";
+			}
+
 		}
 	}
 

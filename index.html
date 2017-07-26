@@ -18,7 +18,18 @@
     <main class="main">
         <div class="container">
             <section>
-                <div class="section-title">Grade</div>
+                <div class="section-title"><span class="not-important">Default</span></div>
+                <div class="section-content">
+                    <div class="slider-radio">
+                        <input type="radio" name="options" id="option-1" checked><label for="option-1">1</label>
+                        <input type="radio" name="options" id="option-2"><label for="option-2">2</label>
+                        <input type="radio" name="options" id="option-3"><label for="option-3">3</label>
+                        <input type="radio" name="options" id="option-4"><label for="option-4">4</label>
+                    </div>
+                </div>
+            </section>
+            <section>
+                <div class="section-title"><code><span class="not-important">class=</span><br>"Base"</code></div>
                 <div class="section-content">
                     <div class="slider-radio base">
                         <input type="radio" name="grade" id="a" checked><label for="a">A</label>
@@ -30,7 +41,7 @@
                 </div>
             </section>
             <section>
-                <div class="section-title">Cars</div>
+                <div class="section-title"><code><span class="not-important">class=</span><br>"Cool"</code></div>
                 <div class="section-content">
                     <div class="slider-radio cool">
                         <input type="radio" name="car" id="alfa-romeo" checked><label for="alfa-romeo">Alfa Romeo</label>
@@ -40,9 +51,9 @@
                 </div>
             </section>
             <section>
-                <div class="section-title">Height</div>
+                <div class="section-title"><code><span class="not-important">class=</span><br>"Elegant Vertical"</code></div>
                 <div class="section-content">
-                    <div class="slider-radio vertical nerdy">
+                    <div class="slider-radio vertical elegant">
                         <input type="radio" name="height" id="high" checked><label for="high">High</label>
                         <input type="radio" name="height" id="average"><label for="average">Average</label>
                         <input type="radio" name="height" id="low"><label for="low">Low</label>
@@ -65,20 +76,25 @@
         header {
             text-align: center;
         }
+
         section {
             border-bottom: 1px solid #ccc;
             overflow: auto;
         }
         .section-title {
             float: left;
-            width: 15%;
+            width: 25%;
             padding: 30px;
-            font-size: 25px;
+            font-size: 20px;
             font-weight: bold;
+        }
+        .not-important {
+            opacity: 0.5;
+            font-size: 15px;
         }
         .section-content {
             float: left;
-            width: 85%;
+            width: 75%;
             padding: 30px;
         }
     </style>
