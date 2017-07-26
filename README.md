@@ -65,5 +65,5 @@ To avoid confusion, you can simply add styles to your stylesheet. Following, is 
 ```
 Of course if you are using more than one slider, you can add your own classes and style them respectively by adding yout own classes in addition to the `slider-radio` class.
 
-## ⚖️ License
+##⚖️ License
 [MIT](https://github.com/billoosijok/slider-radio/blob/master/LICENSE)
