@@ -13,8 +13,8 @@ Animated slider radio buttons
 - ⚖️ [License](#-license)
 
 ## 🌟 Features
-- Backward compatible with older browsers.
 - Highly customizable.
+- Gracefully falls back on older browsers.
 
 ## ⬇️ Installation
 #### Regular
