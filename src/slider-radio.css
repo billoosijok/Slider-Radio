@@ -2,15 +2,14 @@
 .slider-radio{position:relative;}.slider-radio input[type=radio]{display:none;}.slider-radio input[type=radio]:checked + label{position:relative !important;z-index:100 !important;}
 
 /* Base Theme */
-
-.slider-radio.base {
+.slider-radio {
     border-radius: 5px;
     overflow: hidden;
     display: inline-block;
     background-color: #eee;
 }
 
-.slider-radio.base label {
+.slider-radio label {
     display: inline-block;
     padding: 10px 20px;
     cursor: pointer;
@@ -18,16 +17,14 @@
 }
 
 /* Indicator Styles */
-.slider-radio.base input[type=radio]:checked + label,
-.slider-radio.base .sliding-piece {
+.slider-radio input[type=radio]:checked + label,
+.slider-radio .sliding-piece {
     color: white;
     background-color: #005D7A;
     transition-timing-function: cubic-bezier(.74,.14,.38,.99);
 }
 
 /* Cool Theme */
-
-
 
 .slider-radio.cool label {
     display: inline-block;

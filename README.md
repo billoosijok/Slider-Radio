@@ -31,7 +31,7 @@ Animated slider radio buttons
 2. Make sure that all the radio buttons all followed by their labels.
 3. Connect all labels witheir respective radio input using `for` and `id`.
 ```html
-<div class="slider-radio base">
+<div class="slider-radio">
     <input type="radio" name="grade" id="a"><label for="a">A</label>
     <input type="radio" name="grade" id="b"><label for="b">B</label>
     <input type="radio" name="grade" id="c"><label for="c">C</label>
