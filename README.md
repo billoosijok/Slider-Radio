@@ -7,16 +7,16 @@ Animated slider radio buttons
 
 ### Table of Content
 - 🌟 [Features](#-features)
-- ⬇️ [Installation](#-installation)
+- ⬇️ [Installation](#%EF%B8%8F-installation)
 - 🎉 [Usage](#-usage)
 - 🤘 [Customization](#-customization) 
-- ⚖️ [License](#-license)
+- ⚖️ [License](#%EF%B8%8F-license)
 
-## 🌟Features
+## 🌟 Features
 - Highly customizable.
 - Gracefully falls back on older browsers.
 
-## ⬇️Installation
+## ⬇️ Installation
 #### Regular
 1. Go to the <a href="src/slider-radio.zip">**File Page**</a>. Click download.
 2. Add it to your HTML document.
@@ -26,7 +26,7 @@ Animated slider radio buttons
 ```
 
 
-## 🎉Usage
+## 🎉 Usage
 1. Wrap your inputs around a tag with `slider-radio` class.
 2. Make sure that all the radio buttons all followed by their labels.
 3. Connect all labels witheir respective radio input using `for` and `id`.
@@ -46,7 +46,7 @@ You can add themes by adding their names to the container class in addition to `
 
 ###### See the Example Page at [/Example](billoosijok.github.io/slider-radio/Example)
 
-## 🤘Customization
+## 🤘 Customization
 Since it's your project, you may custumize the slider from the `slider-radio.css` file. Make sure you don't modify the line underneath `/* REQUIRED STYLES */`.
 ### or
 To avoid confusion, you can simply add styles to your stylesheet. Following, is a guide for css selectors to use:
@@ -65,5 +65,5 @@ To avoid confusion, you can simply add styles to your stylesheet. Following, is 
 ```
 Of course if you are using more than one slider, you can add your own classes and style them respectively by adding yout own classes in addition to the `slider-radio` class.
 
-## ⚖️License
+## ⚖️ License
 [MIT](https://github.com/billoosijok/slider-radio/blob/master/LICENSE)
