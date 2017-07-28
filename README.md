@@ -40,8 +40,8 @@ Animated slider radio buttons
 ### Themes
 You can add themes by adding their names to the container class in addition to `slider-radio`. Available themes are:
 1. **Base**.
-2. **Cool**.
-3. **Elegant**.
+2. **Elegant**.
+3. **Edgy**.
 4. **Vertical**.
 
 ###### See the Example Page at [/Example](http://billoosijok.github.io/slider-radio/Example)

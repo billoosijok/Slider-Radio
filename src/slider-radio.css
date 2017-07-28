@@ -36,9 +36,9 @@
 
 
 
-/* Cool Theme */
+/* Elegant Theme */
 
-.slider-radio.cool label {
+.slider-radio.elegant label {
     display: inline-block;
     padding: 10px 20px;
     cursor: pointer;
@@ -47,8 +47,8 @@
     opacity: 0.5;
 }
 
-.slider-radio.cool input[type=radio]:checked + label,
-.slider-radio.cool .sliding-piece {
+.slider-radio.elegant input[type=radio]:checked + label,
+.slider-radio.elegant .sliding-piece {
     color: white;
     border-radius: 10px;
     background-color: #f44242;
@@ -56,9 +56,9 @@
     box-shadow: 0 0 5px rgba(0,0,0,0.5);
 }
 
-/* Elegant Theme */
+/* Edgy Theme */
 
-.slider-radio.elegant label {
+.slider-radio.edgy label {
     display: inline-block;
     padding: 10px 20px;
     cursor: pointer;
@@ -69,11 +69,11 @@
     transition: filter 0.3s;
 }
 
-.slider-radio.elegant input[type=radio]:checked + label {
+.slider-radio.edgy input[type=radio]:checked + label {
     filter: blur(0px);
 }
-.slider-radio.elegant input[type=radio]:checked + label,
-.slider-radio.elegant .sliding-piece {
+.slider-radio.edgy input[type=radio]:checked + label,
+.slider-radio.edgy .sliding-piece {
     border-radius: 10px;
     background-color: transparent;
     color: black;
@@ -82,10 +82,6 @@
 }
 
 /* Vertical */
-
-.slider-radio.vertical {
-    float: left !important;
-}
 
 .slider-radio.vertical label {
     display: block !important;

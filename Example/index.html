@@ -18,7 +18,12 @@
     <main class="main">
         <div class="container">
             <section>
-                <div class="section-title"><span class="not-important">Default</span></div>
+                <div class="section-title">
+                    <h3>Default</h3>
+                    <p class="sub-heading">
+                        <code><span class="not-important">&lt;div <br> class="</span>slider-radio<span class="not-important">"&gt;</span></code>
+                    </p>
+                </div>
                 <div class="section-content">
                     <div class="slider-radio">
                         <input type="radio" name="options" id="option-1" checked><label for="option-1">1</label>
@@ -29,7 +34,12 @@
                 </div>
             </section>
             <section>
-                <div class="section-title"><code><span class="not-important">class=</span><br>"Base"</code></div>
+                <div class="section-title">
+                    <h3>Base</h3>
+                    <p class="sub-heading">
+                        <code><span class="not-important">&lt;div <br> class="</span>slider-radio base<span class="not-important">"&gt;</span></code>
+                    </p>
+                </div>
                 <div class="section-content">
                     <div class="slider-radio base">
                         <input type="radio" name="grade" id="a" checked><label for="a">A</label>
@@ -41,9 +51,14 @@
                 </div>
             </section>
             <section>
-                <div class="section-title"><code><span class="not-important">class=</span><br>"Cool"</code></div>
+                <div class="section-title">
+                    <h3>Elegant</h3>
+                    <p class="sub-heading">
+                        <code><span class="not-important">&lt;div <br> class="</span>slider-radio elegant<span class="not-important">"&gt;</span></code>
+                    </p>
+                </div>
                 <div class="section-content">
-                    <div class="slider-radio cool">
+                    <div class="slider-radio elegant">
                         <input type="radio" name="car" id="alfa-romeo" checked><label for="alfa-romeo">Alfa Romeo</label>
                         <input type="radio" name="car" id="bmw"><label for="bmw">BMW</label>
                         <input type="radio" name="car" id="tesla"><label for="tesla">Tesla</label>
@@ -51,9 +66,14 @@
                 </div>
             </section>
             <section>
-                <div class="section-title"><code><span class="not-important">class=</span><br>"Elegant Vertical"</code></div>
+                <div class="section-title">
+                    <h3>Edgy</h3>
+                    <p class="sub-heading">
+                        <code><span class="not-important">&lt;div <br> class="</span>slider-radio vertical edgy<span class="not-important">"&gt;</span></code>
+                    </p>
+                </div>
                 <div class="section-content">
-                    <div class="slider-radio vertical elegant">
+                    <div class="slider-radio vertical edgy">
                         <input type="radio" name="height" id="high" checked><label for="high">High</label>
                         <input type="radio" name="height" id="average"><label for="average">Average</label>
                         <input type="radio" name="height" id="low"><label for="low">Low</label>
@@ -83,18 +103,20 @@
         }
         .section-title {
             float: left;
-            width: 25%;
+            width: 45%;
             padding: 30px;
             font-size: 20px;
             font-weight: bold;
         }
+        .section-title .sub-heading {
+            font-size: 15px;
+        }
         .not-important {
             opacity: 0.5;
-            font-size: 15px;
         }
         .section-content {
             float: left;
-            width: 75%;
+            width: 55%;
             padding: 30px;
         }
     </style>
