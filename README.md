@@ -17,9 +17,10 @@ Animated slider radio buttons
 - Gracefully falls back on older browsers.
 
 ## ⬇️ Installation
-#### Regular
-1. Go to the <a href="src/slider-radio.zip">**File Page**</a>. Click download.
+#### [Download](https://raw.githubusercontent.com/billoosijok/slider-radio/master/src/slider-radio.zip)
+1. Click download.
 2. Add it to your HTML document.
+
 ```html
 <script src="slider-radio/slider-radio.js"></script>
 <link rel="stylesheet" href="slider-radio/slider-radio.css">
